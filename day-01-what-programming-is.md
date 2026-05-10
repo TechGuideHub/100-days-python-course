@@ -6,15 +6,15 @@
 
 ## Today's Goal
 
-Today you will understand what programming really is.
+Today you will build a simple, useful idea of what programming is.
 
-You do not need to memorize anything today. You do not need to be "good at computers." You do not even need to write much code yet.
+You do not need to memorize terms. You do not need to be "good at computers." You do not even need to write much code yet.
 
-By the end of this lesson, you should be able to explain programming in plain English:
+By the end of this lesson, you should be able to explain programming like this:
 
 > Programming is writing step-by-step instructions that a computer can follow.
 
-That sounds simple because the basic idea is simple. The skill comes from learning how to make those instructions clear, precise, and useful.
+The idea is simple. The skill is learning how to make those instructions clear, precise, and useful.
 
 ## The Big Idea
 
@@ -24,13 +24,11 @@ It can do millions of operations quickly, but it does not understand hints, mood
 
 If you tell another person:
 
-Plain-English example:
-
 ```text
 Make tea.
 ```
 
-They already know hundreds of hidden steps:
+They fill in many hidden steps:
 
 * get a cup
 * boil water
@@ -39,11 +37,11 @@ They already know hundreds of hidden steps:
 * maybe add milk or sugar
 * serve it
 
-A computer does not know those hidden steps unless someone explains them.
+A computer does not fill in those steps for you. Someone has to explain them.
 
-> Key idea: Programming is the practice of making hidden steps visible.
+Programming is the practice of making hidden steps visible.
 
-That is the heart of it.
+That is the heart of today's lesson.
 
 ## The Mental Model
 
@@ -58,8 +56,6 @@ A recipe has:
 * repeated actions
 * a result
 
-Plain-English example:
-
 ```text
 If the water is not hot:
     heat the water
@@ -72,7 +68,7 @@ Serve
 
 That is not Python yet. It is just a clear set of instructions.
 
-Before you become good at Python, you first become better at thinking in steps.
+Before you become good at Python, you first become comfortable thinking in steps.
 
 Python is the language. Step-by-step thinking is the deeper skill.
 
@@ -84,8 +80,6 @@ Most beginner programs do three simple things:
 2. Do something with it
 3. Show some output
 
-Tiny Python example:
-
 ```python
 name = input("What is your name? ")
 print("Hello, " + name)
@@ -93,13 +87,13 @@ print("Hello, " + name)
 
 This program asks for a name, stores the answer, and prints a greeting.
 
-Example input:
+If the user types:
 
 ```text
 Maya
 ```
 
-Example output:
+The program shows:
 
 ```text
 Hello, Maya
@@ -115,7 +109,7 @@ It is small, but it has the same basic shape as bigger programs:
 
 > Checkpoint: A beginner program often follows this shape: input, process, output.
 
-Do not dismiss small programs. Small programs are where your instincts are built.
+Do not dismiss small programs. They are where your instincts are built.
 
 ## The First Important Truth
 
@@ -133,7 +127,7 @@ Beginners often think experts write perfect code immediately.
 
 They do not.
 
-Experienced programmers make mistakes constantly. The difference is that they have learned how to notice mistakes, read clues, and fix one thing at a time.
+Experienced programmers still make mistakes. They have learned how to notice clues, slow down, and fix one thing at a time.
 
 That is why this course includes debugging from the beginning. Debugging is not failure. Debugging is programming.
 
@@ -170,9 +164,7 @@ Leave home
 
 Notice what changed.
 
-The vague instruction became smaller steps. One step even includes a decision:
-
-Decision pattern:
+The vague instruction became smaller steps. One step includes a decision:
 
 ```text
 If it is late:
@@ -181,7 +173,7 @@ Otherwise:
     review today's plan
 ```
 
-That decision pattern will later become Python code using `if`, `else`, and conditions.
+Later, this same idea becomes Python code using `if`, `else`, and conditions.
 
 You are not just learning commands. You are learning patterns of thought.
 
@@ -200,8 +192,6 @@ Write the steps in plain English.
 
 Use short lines.
 
-Plain-English example:
-
 ```text
 Pick up the phone
 Unlock the screen
@@ -212,9 +202,7 @@ Check the message
 Send it
 ```
 
-Now improve it by adding one decision:
-
-With a decision:
+Now add one decision:
 
 ```text
 If the message has a mistake:
@@ -223,9 +211,7 @@ Otherwise:
     send it
 ```
 
-That is beginner programming thinking.
-
-No special software needed. No complicated words. Just clear steps.
+That is beginner programming thinking: no special software, no complicated words, just clear steps.
 
 ## Common Mistake
 
@@ -264,8 +250,6 @@ Understanding grows in layers.
 
 Look at this broken instruction:
 
-Broken by design:
-
 ```text
 Make breakfast
 Eat breakfast
@@ -277,7 +261,7 @@ What is wrong?
 
 The order is broken. You cannot eat breakfast before getting ingredients and cooking food.
 
-Fixed version:
+One fix is:
 
 ```text
 Get ingredients
@@ -285,9 +269,7 @@ Cook food
 Eat breakfast
 ```
 
-This is clearer than the broken version, but it can still be improved. "Make breakfast" and "cook food" may mean almost the same thing, so the cleaner version removes the repeated idea.
-
-Cleaner version:
+This is clearer, but it can still be improved. "Make breakfast" and "cook food" may mean almost the same thing, so we can remove the repeated idea:
 
 ```text
 Get ingredients
@@ -309,7 +291,7 @@ In code, many bugs are just this:
 
 > Key idea: Debugging starts by asking whether the steps are clear and in the right order.
 
-The computer is not judging you. It is just following the instructions exactly as written.
+The computer is not judging you. It follows the instructions exactly as written.
 
 ## Read the Docs
 
@@ -333,9 +315,7 @@ Your vending machine should:
 4. Give the snack if the money is enough
 5. Return the money if the money is not enough
 
-Use plain English, not Python.
-
-Starter:
+Use plain English, not Python. Start with:
 
 ```text
 Show snack options
@@ -349,7 +329,7 @@ Add at least one `if` decision.
 
 ## Real-World Use
 
-Programming is used whenever clear repeatable instructions are useful.
+Programming is useful anywhere a task can be described clearly and repeated reliably.
 
 Examples:
 
@@ -361,11 +341,11 @@ Examples:
 * a delivery app tracking an order
 * a school system storing grades
 
-All of these are bigger than today's lesson, but they still depend on the same foundation:
+Those examples are much bigger than today's work, but they still depend on the same foundation:
 
 > Give the computer clear instructions in the right order.
 
-That is the foundation.
+Start there, and the larger ideas have somewhere to attach.
 
 ## Recap
 
@@ -421,8 +401,6 @@ Output:
 
 Find the problem in these steps:
 
-Broken by design:
-
 ```text
 Put shoes on
 Put socks on
@@ -456,7 +434,7 @@ Before moving on, check that you can:
 
 Before today, programming may have looked like a wall of strange symbols.
 
-Now you know the first useful idea:
+Now you have the first useful idea:
 
 > Code is just instructions written very carefully.
 
