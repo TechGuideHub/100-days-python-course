@@ -6,7 +6,7 @@
 
 ## Today's Goal
 
-Today you will prepare your computer to run Python programs.
+Today you will get Python ready and run one small file from your own folder.
 
 By the end of this lesson, you should be able to:
 
@@ -16,44 +16,42 @@ By the end of this lesson, you should be able to:
 - create a small Python file
 - run that file and compare the output with what you expected
 
-Setup is part of programming. Before you can build with Python, you need to confirm that your tools are available and that you know how to run a file.
+This is not busywork. If you can create a file, run it, and understand the output, you have the basic loop you will use for the rest of the course.
 
 ## The Big Idea
 
 Python code does not run by itself. Your computer needs the Python program installed so it can read your `.py` files and execute the instructions inside them.
 
-Runnable example:
+Code:
 
 ```python
 print("Hello, Python!")
 ```
 
-Expected output:
+You should see:
 
 ```text
 Hello, Python!
 ```
 
-> Key idea: Python is the tool that reads your Python code and runs it.
-
-Today has one practical purpose: make sure Python is installed and working.
+Python is the tool that reads your Python code and runs it. Today's job is simply to make sure that tool works on your computer.
 
 ## The Mental Model
 
-Think of setup as preparing a work area.
+Think of setup as getting a small workbench ready.
 
 - Python runs your code.
 - Your code editor is where you write and save code.
 - The terminal is where you type commands.
 - A `.py` file is a saved Python program.
 
-When those pieces are connected, the workflow becomes simple:
+Once those pieces are connected, the workflow is:
 
 ```text
 write code -> save the file -> run the file -> read the output
 ```
 
-That loop will appear again and again throughout the course.
+You will repeat that loop constantly, so it is worth making it comfortable now.
 
 ## What You Need
 
@@ -65,17 +63,17 @@ For this course, you need three things:
 
 ### Python
 
-Python runs your programs. For this course, use Python 3.
+Python runs your programs. Use Python 3 for this course.
 
 ### Code Editor
 
-A code editor is where you write code. Beginner-friendly options include:
+A code editor is where you write and save code. Beginner-friendly options include:
 
 - Visual Studio Code
 - PyCharm Community Edition
 - Thonny
 
-Use the editor your course, school, or computer already supports. Today, the goal is not to compare editors. The goal is to write and run a small file.
+Use the editor your course, school, or computer already supports. Today is not about choosing the perfect editor. It is about getting one file to run.
 
 ### Terminal
 
@@ -83,19 +81,17 @@ The terminal is where you type commands.
 
 Depending on your computer, it may be called Terminal, PowerShell, Command Prompt, or something similar.
 
-You do not need to master the terminal today. You only need to run a few short commands.
+You do not need to master it today. You only need a few short commands.
 
 ## Step 1: Check Whether Python Is Installed
 
-Open a terminal.
-
-Command:
+Open a terminal and try:
 
 ```bash
 python --version
 ```
 
-Expected output:
+You should see something like:
 
 ```text
 Python 3.x.x
@@ -103,45 +99,37 @@ Python 3.x.x
 
 If that works, Python is installed.
 
-If it does not work, try one of these commands.
-
-Command:
+If it does not work, try these:
 
 ```bash
 py --version
 ```
 
-Command:
-
 ```bash
 python3 --version
 ```
 
-Different computers may use different command names. The important result is that one command shows a Python 3 version.
+Different computers use different command names. You only need one of them to show a Python 3 version.
 
 ## Step 2: Install Python If Needed
 
 If none of the version commands work, install Python from the official Python website or from the method recommended by your course or school.
 
-During installation, you may see an option named something like this.
-
-Text to look for:
+During installation, you may see this option:
 
 ```text
 Add Python to PATH
 ```
 
-If you see that option, turn it on. It helps your terminal find Python later.
+Turn it on if you see it. It helps your terminal find Python later.
 
-After installing Python, close the terminal, open it again, and check the version once more.
-
-Command:
+After installing Python, close the terminal, open it again, and check the version once more:
 
 ```bash
 python --version
 ```
 
-If needed, try:
+If that command is not the one your computer uses, try:
 
 ```bash
 py --version
@@ -153,39 +141,29 @@ or:
 python3 --version
 ```
 
-Checkpoint:
-
-```text
-One command should show a Python 3 version.
-```
+Before moving on, make sure one command shows a Python 3 version.
 
 ## Step 3: Create a Course Folder
 
-Create a folder for your Python work.
-
-Folder name:
+Create a folder for your Python work:
 
 ```text
 python-lessons
 ```
 
-Inside it, create another folder for today.
-
-Folder path:
+Inside it, create another folder for today:
 
 ```text
 day-02/
 ```
 
-Keeping files organized matters. It makes it easier to find your work, rerun examples, and continue tomorrow without guessing where everything went.
+Keeping files organized saves future frustration. You will be able to find your work, rerun examples, and continue tomorrow without hunting around.
 
 ## Step 4: Create Your First Python File
 
 Open your code editor.
 
-Create a new file and save it in the `day-02/` folder.
-
-File path:
+Create a new file and save it here:
 
 ```text
 day-02/hello.py
@@ -193,7 +171,7 @@ day-02/hello.py
 
 The `.py` ending tells your editor and your computer that this is a Python file.
 
-Runnable example:
+Code:
 
 ```python
 print("Hello, Python!")
@@ -206,27 +184,23 @@ Save the file before you run it.
 
 Open your terminal in the folder where `hello.py` is saved.
 
-Command:
+Run it:
 
 ```bash
 python hello.py
 ```
 
-If your computer uses a different Python command, use the one that worked in Step 1.
-
-Command:
+If your computer uses a different Python command, use the one that worked in Step 1:
 
 ```bash
 py hello.py
 ```
 
-Command:
-
 ```bash
 python3 hello.py
 ```
 
-Expected output:
+You should see:
 
 ```text
 Hello, Python!
@@ -239,7 +213,7 @@ You wrote a file, saved it, ran it, and read the result. That is the basic progr
 
 This line tells Python to display text on the screen.
 
-Runnable example:
+Code:
 
 ```python
 print("Hello, Python!")
@@ -253,19 +227,17 @@ Show this on the screen.
 
 The text inside quotation marks is called a string.
 
-Runnable example:
+Here are two strings:
 
 ```python
 "Hello, Python!"
 ```
 
-Runnable example:
-
 ```python
 "I am learning step by step."
 ```
 
-> Key idea: Quotation marks tell Python where a piece of text starts and ends.
+Quotation marks tell Python where a piece of text starts and ends.
 
 You will learn strings in more detail later. For today, it is enough to know that text values need quotation marks.
 
@@ -273,7 +245,7 @@ You will learn strings in more detail later. For today, it is enough to know tha
 
 Change `day-02/hello.py` so it prints three lines.
 
-Runnable example:
+Code:
 
 ```python
 print("My name is Sam.")
@@ -284,8 +256,6 @@ print("I am learning one step at a time.")
 Use your own name or a made-up name.
 
 Run the file again.
-
-Command:
 
 ```bash
 python hello.py
@@ -305,7 +275,7 @@ Practice this loop:
 
 Beginners often change the code, run the program, and wonder why the output did not change.
 
-The usual reason is simple.
+The usual reason is simple:
 
 ```text
 The file was not saved.
@@ -313,11 +283,11 @@ The file was not saved.
 
 Before you run a program, save the file.
 
-> Checkpoint: If your output does not match your code, save the file and run it again before changing anything else.
+If your output does not match your code, save the file and run it again before changing anything else.
 
 ## Debug It
 
-Broken by design:
+Broken code:
 
 ```python
 print("Hello, Python!)
@@ -327,13 +297,13 @@ What is wrong?
 
 The string starts with a quotation mark, but it does not end with one.
 
-Fixed version:
+Fixed code:
 
 ```python
 print("Hello, Python!")
 ```
 
-Broken by design:
+Broken code:
 
 ```python
 prin("Hello, Python!")
@@ -343,7 +313,7 @@ What is wrong?
 
 The command should be `print`, not `prin`.
 
-Fixed version:
+Fixed code:
 
 ```python
 print("Hello, Python!")
@@ -364,7 +334,7 @@ Small errors are normal when you are learning the exactness of code.
 
 Look up Python's official documentation for `print`.
 
-Do not try to understand the whole page today. Your task is only to notice three things:
+Do not try to understand the whole page today. Just notice three things:
 
 - `print` is a built-in function
 - official documentation can look dense at first
@@ -372,13 +342,13 @@ Do not try to understand the whole page today. Your task is only to notice three
 
 Documentation is not a novel. Use it like a reference.
 
-Today, find `print`, read one small piece, and move on.
+Find `print`, read one small piece, and move on.
 
 ## Mini Challenge
 
 Create a file named `about_me.py` inside `day-02/`.
 
-File path:
+Save it here:
 
 ```text
 day-02/about_me.py
@@ -386,7 +356,7 @@ day-02/about_me.py
 
 Write a program that prints five lines about you.
 
-Runnable example:
+Code:
 
 ```python
 print("My name is Asha.")
@@ -398,8 +368,6 @@ print("Tomorrow I will write my first small program.")
 
 Run the file from the terminal.
 
-Command:
-
 ```bash
 python about_me.py
 ```
@@ -410,7 +378,7 @@ If it works, change one line, save the file, and run it again.
 
 Every Python project starts with setup.
 
-Professional programmers still:
+Even experienced programmers still:
 
 - install tools
 - check versions
@@ -419,7 +387,7 @@ Professional programmers still:
 - fix setup problems
 - verify that the project runs before adding more code
 
-Setup is normal engineering work. The more often you do it, the easier it becomes to recognize what is working and what needs attention.
+Setup is normal engineering work. The more often you do it, the faster you recognize what is working and what needs attention.
 
 ## Recap
 
@@ -433,7 +401,7 @@ Today you learned that:
 - saving before running matters
 - setup problems are common and fixable
 
-Main idea:
+The main idea:
 
 ```text
 A working setup turns code in a file into instructions your computer can run.
@@ -447,7 +415,7 @@ Check your Python version.
 
 Write down the command that worked on your computer.
 
-Command options:
+Try these if you need them:
 
 ```text
 python --version
@@ -471,7 +439,7 @@ Make it print one sentence about something you may want to build with Python.
 
 Fix this code.
 
-Broken by design:
+Broken code:
 
 ```python
 print("I am learning Python"
@@ -481,7 +449,7 @@ print("I am learning Python"
 
 Fix this code.
 
-Broken by design:
+Broken code:
 
 ```python
 Print("Python is working!")
